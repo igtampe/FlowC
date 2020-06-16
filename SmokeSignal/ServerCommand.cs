@@ -5,8 +5,8 @@ using System.Net.Sockets;
 namespace SmokeSignal {
     public static class ServerCommand {
 
-        public const string DEFAULT_IP = "127.0.0.1";
-        public const int DEFAULT_PORT = 797;
+        public const string DEFAULT_IP = "igtnet-w.ddns.net";
+        public const int DEFAULT_PORT = 757;
 
         public static string RawCommand(String Message,String IP,int Port) {
 
