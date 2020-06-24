@@ -44,8 +44,12 @@
         </div>
 
         <div class="container body-content">
-            <asp:ContentPlaceHolder ID="MainContent" runat="server">
-            </asp:ContentPlaceHolder>
+            <table style="width:100%; margin:20px auto">
+                    <tr>
+                        <td style="vertical-align:central;text-align:center;width:70%"><asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder></td>
+                        <td style="vertical-align:central;text-align:center;width:30%"><asp:ContentPlaceHolder ID="UserInfo" runat="server"></asp:ContentPlaceHolder></td>
+                    </tr>
+                </table>
             <hr />
             <footer>
                 <p>&copy; <%: DateTime.Now.Year %> Igtampe, No Rights Reserved</p>
